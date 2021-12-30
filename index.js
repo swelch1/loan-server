@@ -5,7 +5,7 @@ const { connectDB } = require('./database');
 const { logger } = require('./logger');
 require('dotenv').config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const app = new express();
 
 app.use(cors());
